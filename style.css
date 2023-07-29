@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    margin-top: 2px;
+    
+}
+
+input ::placeholder{
+    color:red;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-image: url("/banner3.jpg");
+    background-position:center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    position: absolute;
+    top:0;
+    left: 60px;
+    width: 80%;
+    padding: 2px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    z-index:1 ;
+}
+ nav img {
+     width: 100px;
+     height: 100px;    ;
+ }
+
+
+.navlogo a{
+    font-weight: 600;
+    color: blue;
+}
+
+.navlinks{
+    list-style: none;
+    display: flex;
+    align-items:center;
+    gap: 2rem;
+    transform: translate(black);
+}
+    
+    
+.navlinks .link{
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(32, 21, 5);
+    cursor: pointer;
+}
+
+.search_box{
+    padding: .5rem 0;
+    border-bottom: 2px solid ;
+    
+}
+
+.search_box input{
+    color:rgb(14, 13, 13);
+    background-color:rgb(51, 42, 19);
+    width: 150px;
+    outline: none;
+    border:none;
+    font-size: medium;
+}
+
+.search_box i{
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    min-height: 1OOvh;
+    max-width: fit-content;
+    margin: 40PX;
+    padding: 2rem;
+    padding-top: 150px;
+    position: relative;
+    
+}
+.container1{
+    padding-left: 3px;
+    padding-top: 80px;
+    margin: 1px;
+
+
+
+}
+
+.container_left
+.container_right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.container_left .content{
+    max-width:400px ;
+    display: grid;
+    gap: 1rem;
+
+}
+
+.content h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: rgb(9,27, 63);
+    font-weight: 700;
+}
+
+.content p{
+    color: rgb(9, 12, 58);
+font-size: large;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.btns button{
+    padding: .5rem 2rem;
+    color: black;
+    font-size: 1rem;
+    background-color: rgb(239, 104, 13);
+    outline: none;
+    border: 2px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+button.read__more{
+    background-color:white;
+    color:rgb(8, 149, 11); 
+}
+
+button.our__blogs:hover{
+    background-color: rgb(9, 27, 63);
+}
+
+.container__right{
+    justify-content: flex;
+
+}
+
+form{
+    width: 350px;
+    display: grid;
+    border-radius: 5px;
+    background-color: rgb(239, 104, 13);
+        color:blue;
+    
+}
+
+form h4{
+    font-size: x-large;
+    font-weight:600 ;
+    padding: 2rem; 
+}
+
+.form__group{
+    display: grid;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.form__group input{
+    padding: 0.5rem;
+    font-size: medium;
+    color: black;
+    background-color:white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid blue;
+
+}
+
+form button{
+    margin-top: 1rem;
+    padding:1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4,2,74);
+    color:white;
+    cursor: pointer;
+
+}
